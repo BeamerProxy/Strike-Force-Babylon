@@ -294,11 +294,11 @@
           }
         }
       },
-      "Crusade Relic§Nano-Infused Power Armor": {
-      "Tags": [
-        "Antiquity Relic"
-        ]        
-          "keywords": {
+      "Crusade Relic§Nano-Infused Power Armor": {      
+      "keywords": {
+        "Tags": [
+          "Antiquity Relic"
+            ]  
             "Keywords": [
               "Infantry",
                 "Judiciar"

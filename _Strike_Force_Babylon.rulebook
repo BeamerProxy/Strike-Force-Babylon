@@ -1,7 +1,7 @@
 {
   "name": "Strike Force Babylon",
   "revision": "0.0.1",
-  "game": "",
+  "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "BeamerProxy",
   "url": "",
@@ -124,7 +124,7 @@
               }
             },
             "statType": "rank",
-            "value": 0,
+            "value": "3",
             "visibility": "normal"
           },
           "Ld": {
@@ -183,7 +183,7 @@
               }
             },
             "statType": "rank",
-            "value": "Grav-flux bombard",
+            "value": "Cyclonic melta lance",
             "visibility": "active"
           },
           "Loadout 2": {
@@ -239,7 +239,7 @@
               }
             },
             "statType": "rank",
-            "value": "Grav-flux bombard",
+            "value": "Meltagun & Siege claw",
             "visibility": "active"
           },
           "M": {

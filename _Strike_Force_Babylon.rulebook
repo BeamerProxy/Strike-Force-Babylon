@@ -1,0 +1,302 @@
+{
+  "name": "Strike Force Babylon",
+  "revision": "0.0.1",
+  "game": "",
+  "genre": "sci-fi",
+  "publisher": "BeamerProxy",
+  "url": "",
+  "notes": "",
+  "wip": true,
+  "dependencies": [
+    {
+      "slug": "DWKPT7",
+      "name": "Dark Angels",
+      "game": "Warhammer 40k",
+      "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k10e/main/SM_Dark_Angels.rulebook"
+    }
+  ],
+  "rulebook": {
+    "assetTaxonomy": {},
+    "assetCatalog": {
+      "Ability§Ancient Systems, Ancient Bond": {
+        "keywords": {
+          "Keywords": [
+            "Leviathan Dreadnought"
+          ]
+        },
+        "text": "'You are the only one who understands how to preserve me, Alterian.' Salomo Alexios must be within 6 inches from Alterian, or the following conditions will apply; \n\n- This model has -1 to hit on attacks.\n- In the Shooting phase, this model can only attack with one ranged weapon.\n- At the beginning of the command Phase, this model must lose D3 mortal wounds."
+      },
+      "Character§Salamo Alexios, Revered Veteran": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Oath of Moment",
+            "Ability§Duty Eternal",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-4 wounds remaining"
+                }
+              }
+            },
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            },
+            "Melee Weapon§Leviathan Dreadnought—Armoured feet",
+            "Ability§Ancient Systems, Ancient Bond"
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Adeptus Astartes"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Character",
+            "Dreadnought",
+            "Imperium",
+            "Leviathan Dreadnought",
+            "Smoke",
+            "Vehicle",
+            "Walker"
+          ],
+          "Category": [
+            "Character",
+            "Vehicle—Walker"
+          ]
+        },
+        "stats": {
+          "Hunter Killer Missiles": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "0": {
+                "order": 0
+              },
+              "1": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Hunter-killer missile"
+                  }
+                ]
+              },
+              "2": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Hunter-killer missile"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Hunter-killer missile"
+                  }
+                ]
+              },
+              "3": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Hunter-killer missile"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Hunter-killer missile"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Hunter-killer missile"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "Ld": {
+            "value": 6
+          },
+          "Loadout 1": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Grav-flux bombard": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Grav-flux bombard"
+                  }
+                ]
+              },
+              "Cyclonic melta lance": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Cyclonic melta lance"
+                  }
+                ]
+              },
+              "Storm cannon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Storm cannon"
+                  }
+                ]
+              },
+              "Meltagun & Siege claw": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Meltagun"
+                  },
+                  {
+                    "trait": "Melee Weapon§Leviathan Dreadnought—Leviathan siege claw"
+                  }
+                ]
+              },
+              "Melta gun & Siege drill": {
+                "order": 4,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Leviathan Dreadnought—Leviathan siege drill"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Meltagun"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Grav-flux bombard",
+            "visibility": "active"
+          },
+          "Loadout 2": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Grav-flux bombard": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Grav-flux bombard"
+                  }
+                ]
+              },
+              "Cyclonic melta lance": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Cyclonic melta lance"
+                  }
+                ]
+              },
+              "Storm cannon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Storm cannon"
+                  }
+                ]
+              },
+              "Meltagun & Siege claw": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Meltagun"
+                  },
+                  {
+                    "trait": "Melee Weapon§Leviathan Dreadnought—Leviathan siege claw"
+                  }
+                ]
+              },
+              "Melta gun & Siege drill": {
+                "order": 4,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Leviathan Dreadnought—Leviathan siege drill"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Meltagun"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Grav-flux bombard",
+            "visibility": "active"
+          },
+          "M": {
+            "value": 8
+          },
+          "OC": {
+            "value": 4
+          },
+          "Points": {
+            "value": 215
+          },
+          "Side weapons": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "2 Heavy flamers": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Heavy flamer"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Heavy flamer"
+                  }
+                ]
+              },
+              "2 Twin Volkite Calivers": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Twin volkite caliver"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Leviathan Dreadnought—Twin volkite caliver"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "2 Heavy flamers",
+            "visibility": "normal"
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 10
+          },
+          "W": {
+            "value": 12
+          }
+        }
+      },
+      "Roster§Roster": {}
+    },
+    "gameModes": {},
+    "theme": {}
+  }
+}

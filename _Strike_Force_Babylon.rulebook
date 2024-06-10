@@ -1,6 +1,6 @@
 {
   "name": "Strike Force Babylon",
-  "revision": "0.0.4",
+  "revision": "0.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "BeamerProxy",
@@ -293,18 +293,6 @@
             "value": 12
           }
         }
-      },
-      "Crusade Relic§Nano-Infused Power Armor": {      
-      "keywords": {
-        "Tags": [
-          "Antiquity Relic"
-            ]  
-            "Keywords": [
-              "Infantry",
-                "Judiciar"
-          ]
-        },
-        "text": "This model gains a Feel No Pain 4+ against melee attacks."
       },
       "Roster§Roster": {}
     },

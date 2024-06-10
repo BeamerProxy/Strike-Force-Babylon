@@ -1,6 +1,6 @@
 {
   "name": "Strike Force Babylon",
-  "revision": "0.0.1",
+  "revision": "0.0.4",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "BeamerProxy",
@@ -293,6 +293,17 @@
             "value": 12
           }
         }
+      },
+      "Pariah Relic§Nano-Infused Power Armor": {
+        "keywords": {
+          "Tags": [
+            "Antiquity Relic"
+          ],
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "text": "This model gains a Feel No Pain 4+ against melee attacks."
       },
       "Roster§Roster": {}
     },

@@ -295,10 +295,13 @@
         }
       },
       "Crusade Relic§Nano-Infused Power Armor": {
-        "keywords": {
-          "Keywords": [
-            "Infantry",
-            "Judiciar"
+      "Tags": [
+        "Antiquity Relic"
+        ]        
+          "keywords": {
+            "Keywords": [
+              "Infantry",
+                "Judiciar"
           ]
         },
         "text": "This model gains a Feel No Pain 4+ against melee attacks."

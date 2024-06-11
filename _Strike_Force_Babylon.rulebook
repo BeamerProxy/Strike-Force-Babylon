@@ -26,6 +26,138 @@
         },
         "text": "'You are the only one who understands how to preserve me, Alterian.' Salomo Alexios must be within 6 inches from Alterian, or the following conditions will apply; \n\n- This model has -1 to hit on attacks.\n- In the Shooting phase, this model can only attack with one ranged weapon.\n- At the beginning of the command Phase, this model must lose D3 mortal wounds."
       },
+      "Ability§Millenium Deulist": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "Once per phase, when a melee attack is allocated to this model and the saving throw is failed, you can change the Damage characteristic of that attack to 0."
+      },
+      "Character§Lucifel, The Ancient Duelist": {
+        "assets": {
+          "traits": [
+            "Ability§Oath of Moment",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Melee Weapon§Redeemer's Chainblade",
+            "Ability§Vanquish the Foe",
+            "Ability§Fights First",
+            "Ranged Weapon§Sinner's Bane",
+            "Ability§Millenium Deulist",
+            "Ability§Deep Strike"
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Adeptus Astartes"
+          ],
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Infantry",
+            "Character",
+            "Grenades",
+            "Imperium",
+            "Tacticus"
+          ],
+          "Category": [
+            "Character"
+          ]
+        },
+        "rules": {
+          "Allowtwoleaders": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{parent}",
+                    "stats",
+                    "Leader",
+                    "max"
+                  ]
+                ],
+                "value": 2
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "min": 1,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "tally",
+                    "Captain"
+                  ]
+                ]
+              },
+              {
+                "actionable": true,
+                "min": 1,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "tally",
+                    "Chapter Master"
+                  ]
+                ]
+              },
+              {
+                "actionable": true,
+                "min": 1,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "tally",
+                    "Lieutenant"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "Ld": {
+            "value": 6
+          },
+          "M": {
+            "value": 6
+          },
+          "OC": {
+            "value": 5
+          },
+          "Points": {
+            "value": 100
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 6
+          }
+        }
+      },
       "Character§Salamo Alexios, Revered Veteran": {
         "assets": {
           "traits": [
@@ -294,6 +426,45 @@
           }
         }
       },
+      "Melee Weapon§Redeemer's Chainblade": {
+        "aspects": {
+          "Label": "Redeemer's Chainblade"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 8
+          },
+          "WS": {
+            "value": 2
+          }
+        }
+      },
       "Pariah Relic§Nano-Infused Power Armor": {
         "keywords": {
           "Tags": [
@@ -304,6 +475,55 @@
           ]
         },
         "text": "This model gains a Feel No Pain 4+ against melee attacks."
+      },
+      "Ranged Weapon§Sinner's Bane": {
+        "aspects": {
+          "Label": "Sinner's Bane"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 8
+          }
+        }
       },
       "Roster§Roster": {}
     },
